@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "1-liners": "^0.3.5",
-    "react-hammerjs": "^0.4.0",
+    "react-hammerjs": "^0.5.0",
     "react-motion": "^0.3.0"
   }
 }
