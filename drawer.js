@@ -243,7 +243,8 @@ var Drawer = (function (_React$Component) {
               {
                 onPress: _this.onPress.bind(_this),
                 onPressUp: _this.onPressUp.bind(_this),
-                onPan: _this.onPan.bind(_this), vertical: false },
+                onPan: _this.onPan.bind(_this),
+                direction: 'DIRECTION_ALL' },
               _react2['default'].createElement(
                 'div',
                 { className: className, style: computedStyle },
