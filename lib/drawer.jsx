@@ -175,7 +175,8 @@ export default class Drawer extends React.Component {
                 <Hammer
                   onPress={this.onPress.bind(this)}
                   onPressUp={this.onPressUp.bind(this)}
-                  onPan={this.onPan.bind(this)} vertical={false}>
+                  onPan={this.onPan.bind(this)}
+                  direction="DIRECTION_ALL">
 
                     <div className={className} style={computedStyle}>
                       { isFunction( children )?
